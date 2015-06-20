@@ -2,7 +2,7 @@
 
 (quail-define-package
  "chinese-flypy" "Chinese" "鹤" t "flypy"
- nil t nil nil nil nil nil nil nil nil t)
+ '((" " . quail-select-current)) t nil nil nil nil nil nil nil nil t)
 
 (quail-define-rules
  ("," "，")
